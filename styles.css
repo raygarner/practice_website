@@ -1,0 +1,121 @@
+body {
+    /* background-color: #161616; /*off-black*/
+    text-align: left;
+    /* color: Wheat; */
+    color: Black;
+    /* background-color: White; */
+    padding-left: 370px; /*sidebar width + sidebar padding * 2  */
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* border: 80px solid #111; */
+    }
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+h1, h2, h3 {
+    font-family: serif;
+
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 85%
+}
+
+.sidenavl {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    font-style: italic;
+    /* font-family: monospace; */
+    line-height: 1.75;
+    background-image:url("img/lillypond.jpg");
+}
+
+.contents {
+    list-style-type: none;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-family: serif;
+}
+
+.contents a {
+    color: White;
+}
+
+.contents a:link {
+    text-decoration: none;
+}
+
+.contents a:hover {
+    text-decoration: underline;
+}
+
+.sidenavl h2 {
+    color: White;
+    line-height:0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.sidenavl hr {
+    color: White;
+    margin-top: 20px;
+}
+
+
+.pics {
+    text-align: center;
+    background-color: AliceBlue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    width: auto;
+    max-width: 100%;
+    background-image: url("img/bjork.jpeg");
+    background-repeat: repeat;
+}
+
+button {
+    border-right: 1px solid Black;
+    border-left: 1px solid Black;
+    border-bottom: none;
+    border-top: none;
+    background-color: AliceBlue;
+    font-family: sans-serif;
+    font-size: 100%;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    line-height: 2;
+    width: 300px;
+    float: center;
+}
+
+.btnTest {
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    opacity: 0.95;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 80%
+}
+
+input[type=text] {
+    border: none;
+    background-color: AliceBlue;
+    border-bottom: 1px solid Black;
+}

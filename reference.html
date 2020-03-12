@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ray's first html doc</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body id="body">
+
+        <div class="sidenavl">
+            <h2>Contents</h2>
+            <hr>
+            <ul class="contents">
+                <li><a href="#MainHeading">Main Heading</a></li>
+
+                <ul class="contents">
+                    <li><a href="#para1">First Paragraph</a></li>
+                    <li><a href="#para2">Second Paragraph</a></li>
+
+                    <ul class="contents">
+                        <li><a href="#pictures">Pictures</a></li>
+                        <li><a href="#form">Form Demo</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+        <!--div class="sidenavr"></div-->
+        <!--div class="sidenavt"></div-->
+
+        <h1 id="MainHeading">This is the first heading</h2>
+        <hr>
+
+
+        <h2 id="para1">First Paragraph</h1>
+        <p>This is the <b>first</b> paragraph of text. <i>Ray Garner</i> is learning html for a module on his course: Computer Science Bsc at the University of Nottingham.</p>
+
+
+        <p>This is another paragraph!</p>
+
+        <h2 id="para2">Second Paragraph</h2>
+
+        <p>Once again, Ray Garner is writing filler text to populate this html document.</p>
+
+        <a href="https://www.perfectcast.com">Perfectcast Ltd</a>
+
+        <h3 id="pictures">Here are some pictures:</h3>
+
+        <div class="pics">
+            <img src="img/katebush.jpeg" onmouseover="this.src='img/katebush_stretched.jpeg';" onmouseout="this.src='img/katebush.jpeg';"/>
+            <br>
+
+            <img src='img/agnetha_faltskog.jpeg' onmouseover="this.src='img/agnetha_faltskog_nazi.jpeg';" onmouseout="this.src='img/agnetha_faltskog.jpeg';"/>
+
+
+        </div>
+
+        <br>
+
+        <div class="btnTest">
+            <button onClick=display("hello")>I'm a button</button>
+            <button onClick=bgCol()>Change bg colour</button>
+        </div>
+
+
+
+        <br>
+
+        <h3 id="form">Here is a form:</h3>
+        <form action=display()>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Submit" onClick=display("submitted")></button>
+        </form>
+
+        <br>
+        <address>
+            Written by Chad<br>
+            Visit him in:<br>
+            Nottingham or Leicester<br>
+        </address>
+
+        <!--div class="sidenavb"></div-->
+
+    </body>
+</html>
+
